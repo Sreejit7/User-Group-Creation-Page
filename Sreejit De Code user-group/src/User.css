@@ -1,0 +1,27 @@
+.user{
+  object-fit: contain;
+  width: 160px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.user:hover{
+  transform: scale(1.2);
+}
+.user > img{
+  object-fit: cover;
+  height: 160px;
+  width: 160px;
+  z-index: -100;
+  border-radius: 5px;
+}
+.user__name{
+  background: rgb(57, 171, 236);
+  padding: 5px;
+  margin-top: -5px;
+  z-index: 100;
+  border-radius: 2px;
+}
+.user__icons{
+  margin-left: 40px;
+}
